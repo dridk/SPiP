@@ -93,7 +93,7 @@ helpMessage=paste0("Usage: SPiPv",version,".r\n
         -I, --input /path/to/inputFile\t\tlist of variants file (.txt or .vcf)
         -O, --output /path/to/outputFile\t\tName of ouput file (.txt or .vcf)\n
     Genome options \n
-        -g, --GenomeAssenbly hg19\t\tGenome assembly version (hg19 or hg38) [default= ",genome,"] \n
+        -g, --GenomeAssembly hg19\t\tGenome assembly version (hg19 or hg38) [default= ",genome,"] \n
     Parallel options \n
         -t, --threads N\t\tNumber of threads used for the calculation [default= ",threads,"]
         -l, --maxLines N\t\tNumber of lines read in each time [default= ",maxLines,"]\n
